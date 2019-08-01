@@ -27,6 +27,7 @@ emp1.displayEmployee()
 emp2.displayEmployee()
 print ("Total Employee %d" % Employee.empCount)
 
+'判断对象是否拥有 这个属性'
 if(hasattr(emp1,"name")):
     print(emp1.name)
 if (hasattr(emp1, "boss")):
