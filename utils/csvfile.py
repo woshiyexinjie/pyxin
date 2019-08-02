@@ -27,10 +27,9 @@ with codecs.open(fileName, 'w', 'utf-8') as csvfile:
         'title': '笑傲江湖',
         'author': '金庸',
     }
-    book2 = {
-        'title': '西游记',
-        'author': '吴承恩',
-    }
+    title = '西游记'
+    auther = '吴承恩'
+    book2 = {"title": title, "author": auther}
     books.append(book)
     books.append(book2)
 
